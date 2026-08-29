@@ -4,8 +4,6 @@
 ### 🧠 AI Engineer &nbsp;•&nbsp; ⚙️ Backend Architect &nbsp;•&nbsp; 🎮 Game Dev
 
 <br>
-
-<div align="center">
   
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=I+always+try+my+best!;Training+Deep+Neural+Networks;Building+Scalable+Backend+Systems;Creating+Immersive+Games)](https://git.io/typing-svg)
 
@@ -13,6 +11,12 @@
   
   <a href="https://fullstackthinker.com/">
     <img src="https://img.shields.io/badge/-My_Website-05122A?style=for-the-badge&logo=google-chrome&logoColor=00D9FF">
+  </a>
+  <a href="https://www.linkedin.com/in/fullstackthinker26/">
+    <img src="https://img.shields.io/badge/-LinkedIn-05122A?style=for-the-badge&logo=linkedin&logoColor=0A66C2">
+  </a>
+  <a href="https://www.upwork.com/freelancers/~01662ddccd4c2b19b1?mp_source=share">
+    <img src="https://img.shields.io/badge/-Upwork-05122A?style=for-the-badge&logo=upwork&logoColor=14A800">
   </a>
   <a href="https://www.facebook.com/thanhan.demon26/">
     <img src="https://img.shields.io/badge/-Facebook-05122A?style=for-the-badge&logo=facebook&logoColor=1877F2">
@@ -26,29 +30,26 @@
 ## 🧑‍💻 About Me
 
 ```python
-class Developer:
-    def __init__(self):
-        self.name = "Nguyen Thanh An"
-        self.role = "AI & Software Engineer"
-        self.website = "fullstackthinker.com"
-        self.education = {
-            "FPT Polytechnic": "Computer Programming",
-            "FPT University": "Software Engineering",
-            "University of Information Technology (UIT)": "Artificial Intelligence"
-        }
+from typing import List
 
-    def get_passions(self):
+class Developer:
+    def __init__(self) -> None:
+        self.name: str = "Nguyen Thanh An"
+        self.role: str = "AI & Software Engineer"
+        self.website: str = "fullstackthinker.com"
+
+    def get_passions(self) -> List[str]:
         return [
             "Building robust Backend APIs",
             "Training cutting-edge AI Models", 
             "Developing interactive Games"
         ]
 
-    def work_hard(self):
+    def work_hard(self) -> None:
         while True:
             self.code()
             self.learn()
-            self.debug() # "I always try my best!"
+            self.debug()  # "I always try my best!"
 ```
 
 ## 🛠️ Tech Stacks
@@ -80,14 +81,21 @@ class Developer:
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thanhanDemon2003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05122A" height="190" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=thanhanDemon2003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05122A&cache_seconds=86400" height="190" />
   <img src="https://streak-stats.demolab.com?user=thanhanDemon2003&theme=tokyonight&hide_border=true&background=05122A" height="190" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thanhanDemon2003&theme=tokyo-night&hide_border=true&bg_color=05122A" width="90%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=thanhanDemon2003&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=05122A&cache_seconds=86400" height="190" />
+</div>
+
+## ☕ Support My Work
+
+<div align="center">
+  <p>If my projects have helped you or you just want to support my journey, I'd really appreciate a coffee! 💖</p>
+  <img src="https://www.fullstackthinker.com/api/coffee/qr" width="220" alt="Buy Me A Coffee QR Code" />
 </div>
 
 <div align="center">
