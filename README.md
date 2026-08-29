@@ -9,21 +9,7 @@
 
   <br>
   
-  <a href="https://fullstackthinker.com/">
-    <img src="https://img.shields.io/badge/-My_Website-05122A?style=for-the-badge&logo=google-chrome&logoColor=00D9FF">
-  </a>
-  <a href="https://www.linkedin.com/in/fullstackthinker26/">
-    <img src="https://img.shields.io/badge/-LinkedIn-05122A?style=for-the-badge&logo=linkedin&logoColor=0A66C2">
-  </a>
-  <a href="https://www.upwork.com/freelancers/~01662ddccd4c2b19b1?mp_source=share">
-    <img src="https://img.shields.io/badge/-Upwork-05122A?style=for-the-badge&logo=upwork&logoColor=14A800">
-  </a>
-  <a href="https://www.facebook.com/thanhan.demon26/">
-    <img src="https://img.shields.io/badge/-Facebook-05122A?style=for-the-badge&logo=facebook&logoColor=1877F2">
-  </a>
-  <a href="mailto:contact@thanhandemon.com">
-    <img src="https://img.shields.io/badge/-Email-05122A?style=for-the-badge&logo=gmail&logoColor=EA4335">
-  </a>
+  [![My Website](https://img.shields.io/badge/My_Website-00D9FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://fullstackthinker.com/) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fullstackthinker26/) &nbsp; [![Upwork](https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01662ddccd4c2b19b1?mp_source=share) &nbsp; [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/thanhan.demon26/) &nbsp; [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@thanhandemon.com)
   
 </div>
 
