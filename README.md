@@ -81,7 +81,7 @@ class Developer:
 
 <div align="center">
   <p>If my projects have helped you or you just want to support my journey, I'd really appreciate a coffee! 💖</p>
-  <img src="https://www.fullstackthinker.com/api/coffee/qr" width="220" alt="Buy Me A Coffee QR Code" />
+  <img src="https://www.fullstackthinker.com/api/coffee/qr?.png" width="220" alt="Buy Me A Coffee QR Code" />
 </div>
 
 <div align="center">
