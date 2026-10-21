@@ -1,94 +1,208 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/banner.svg" alt="Nguyen Thanh An: software engineer, AI engineer, game developer, AI and math researcher. A horned robot agent with arms and legs rests a hand on its chin beside a reasoning trace that types itself out." width="100%">
+</p>
 
-# ⚡ NGUYEN THANH AN
-### 🧠 AI Engineer &nbsp;•&nbsp; ⚙️ Backend Architect &nbsp;•&nbsp; 🎮 Game Dev
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=3DFFA0&center=true&vCenter=true&width=560&height=36&lines=Reading+papers.+Running+experiments.;Building+agents+that+use+tools;Turning+math+into+working+code;Shipping+backends%2C+models+and+games;Never+done+learning" alt="Reading papers. Running experiments. Building agents that use tools. Turning math into working code. Shipping backends, models and games. Never done learning."></a>
+</p>
 
-<br>
-  
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&random=false&width=600&lines=I+always+try+my+best!;Training+Deep+Neural+Networks;Building+Scalable+Backend+Systems;Creating+Immersive+Games)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://fullstackthinker.com/"><img src="./assets/link-website.svg" height="38" alt="Website"></a>
+  <a href="https://www.linkedin.com/in/fullstackthinker26/"><img src="./assets/link-linkedin.svg" height="38" alt="LinkedIn"></a>
+  <a href="https://www.upwork.com/freelancers/~01662ddccd4c2b19b1?mp_source=share"><img src="./assets/link-upwork.svg" height="38" alt="Upwork"></a>
+  <a href="https://www.facebook.com/thanhan.demon26/"><img src="./assets/link-facebook.svg" height="38" alt="Facebook"></a>
+  <a href="mailto:contact@thanhandemon.com"><img src="./assets/link-email.svg" height="38" alt="Email"></a>
+</p>
 
-  <br>
-  
-  [![My Website](https://img.shields.io/badge/My_Website-00D9FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://fullstackthinker.com/) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fullstackthinker26/) &nbsp; [![Upwork](https://img.shields.io/badge/Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01662ddccd4c2b19b1?mp_source=share) &nbsp; [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/thanhan.demon26/) &nbsp; [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@thanhandemon.com)
-  
-</div>
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="">
+</p>
 
-## 🧑‍💻 About Me
+## Meet thinker
+
+Friends call me *thinker*. I think on paper before I type, then let the work loop: observe, reason, plan, act, reflect. Inside my head it looks like one orchestrator and a small team of specialist agents.
+
+<p align="center">
+  <img src="./assets/agents.svg" alt="Thinker, the orchestrator, takes a request, sends tasks to a software agent, an AI agent, a game agent and a math agent, then merges their results and writes notes" width="100%">
+</p>
+
+## Four ways I work
+
+<p align="center">
+  <img src="./assets/roles.svg" alt="Software engineering, AI engineering, game development, AI and math research" width="100%">
+</p>
+
+One engineer, four disciplines. Each one sharpens the others: systems thinking for models, optimization for games, and math for all of it.
+
+## About me
 
 ```python
-from typing import List
+class Thinker:
+    name = "Nguyen Thanh An"
+    alias = "thinker"
+    roles = [
+        "software engineer",
+        "AI engineer",
+        "game developer",
+        "AI & math researcher",
+    ]
+    site = "fullstackthinker.com"
+    mindset = "always a student of the problem"
 
-class Developer:
-    def __init__(self) -> None:
-        self.name: str = "Nguyen Thanh An"
-        self.role: str = "AI & Software Engineer"
-        self.website: str = "fullstackthinker.com"
-
-    def get_passions(self) -> List[str]:
-        return [
-            "Building robust Backend APIs",
-            "Training cutting-edge AI Models", 
-            "Developing interactive Games"
-        ]
-
-    def work_hard(self) -> None:
+    def run(self) -> None:
         while True:
-            self.code()
-            self.learn()
-            self.debug()  # "I always try my best!"
+            problem = self.observe()          # find a problem worth solving
+            insight = self.reason(problem)    # derive it on paper first
+            plan = self.plan(insight)         # backend + model + game loop
+            result = self.act(plan)           # write it, ship it
+            self.reflect(result)              # what broke? what did I learn?
+            # "I always try my best!"
+
+    def delegate(self, goal: str):
+        # my stand-in agent: plans, picks a tool, reads the result, remembers it
+        return DemonAgent(tools=["api", "model", "game", "math"]).run(goal)
 ```
 
-## 🛠️ Tech Stacks
+## Always learning
 
-### 🤖 AI & Machine Learning
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
-![PyTorch](https://img.shields.io/badge/-PyTorch-05122A?style=flat&logo=pytorch)&nbsp;
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-05122A?style=flat&logo=tensorflow)&nbsp;
-![OpenAI](https://img.shields.io/badge/-OpenAI-05122A?style=flat&logo=openai)&nbsp;
-![Pandas](https://img.shields.io/badge/-Pandas-05122A?style=flat&logo=pandas)&nbsp;
+<p align="center">
+  <img src="./assets/learning.svg" alt="How I learn: read, derive, build, break, write, repeat. A loss curve that falls but never reaches zero." width="100%">
+</p>
 
-### ⚙️ Backend & Cloud
-![C#](https://img.shields.io/badge/-C%23-05122A?style=flat&logo=csharp&logoColor=5633ce)&nbsp;
-![Go](https://img.shields.io/badge/-Go-05122A?style=flat&logo=go)&nbsp;
-![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)&nbsp;
-![FastAPI](https://img.shields.io/badge/-FastAPI-05122A?style=flat&logo=fastapi)&nbsp;
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)&nbsp;
-![AWS](https://img.shields.io/badge/-AWS-05122A?style=flat&logo=amazon-aws)&nbsp;
-![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-05122A?style=flat&logo=google-cloud)&nbsp;
-![Firebase](https://img.shields.io/badge/-Firebase-05122A?style=flat&logo=firebase)&nbsp;
+What I am digging into right now:
 
-### 🎮 Game Dev & Others
-![Unity](https://img.shields.io/badge/-Unity-05122A?style=flat&logo=unity)&nbsp;
-![Godot](https://img.shields.io/badge/-Godot-05122A?style=flat&logo=godotengine)&nbsp;
-![React Native](https://img.shields.io/badge/-React%20Native-05122A?style=flat&logo=react)&nbsp;
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+<!-- EDIT: replace these rows with what you are really studying this month -->
+<table>
+  <tr>
+    <td width="150"><b>Math</b></td>
+    <td>Linear algebra, optimization and probability, worked by hand before any code.</td>
+  </tr>
+  <tr>
+    <td><b>AI</b></td>
+    <td>Transformers, fine-tuning and reinforcement learning, reimplemented to understand them.</td>
+  </tr>
+  <tr>
+    <td><b>Agents</b></td>
+    <td>Tool use, planning, memory and evals for agents that act on their own.</td>
+  </tr>
+  <tr>
+    <td><b>Games</b></td>
+    <td>Procedural generation and learning agents that live inside game worlds.</td>
+  </tr>
+  <tr>
+    <td><b>Software</b></td>
+    <td>Distributed systems, and backends designed to fail gracefully.</td>
+  </tr>
+</table>
 
-## 📈 GitHub Stats
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="">
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=thanhanDemon2003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05122A&cache_seconds=86400" height="190" />
-  <img src="https://streak-stats.demolab.com?user=thanhanDemon2003&theme=tokyonight&hide_border=true&background=05122A" height="190" />
-</div>
+## Agents I like to build
 
-<br>
+<p align="center">
+  <img src="./assets/agent.svg" alt="An AI agent loop: a horned robot agent plans, calls one of four tools (API, model, game, math), reads the result and stores it in memory" width="100%">
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=thanhanDemon2003&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=05122A&cache_seconds=86400" height="190" />
-</div>
+The little horned bot is my stand-in for an agent. It plans, picks a tool, reads what comes back and remembers it. Its four tools happen to be my four disciplines.
 
-## ☕ Support My Work
+<p align="center">
+  <img src="./assets/agent-trace.svg" alt="An illustrative agent trace typed out line by line: goal, think, tool, observation, correction, lesson saved to memory" width="100%">
+</p>
 
-<div align="center">
-  <p>If my projects have helped you or you just want to support my journey, I'd really appreciate a coffee! 💖</p>
-  <img src="./imgs/qr.png" width="220" alt="Buy Me A Coffee QR Code" />
-</div>
+## Notes from my math notebook
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="80%">
+Three equations I keep coming back to, re-deriving and re-reading. Each one shows up in more than one of my four disciplines.
+
+**Optimization.** How every model I train learns: step downhill on the loss.
+
+$$\theta_{t+1} = \theta_t - \eta\,\nabla_\theta \mathcal{L}(\theta_t)$$
+
+**Attention.** The core operation inside modern transformers.
+
+$$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\!\left(\frac{QK^{\top}}{\sqrt{d_k}}\right)V$$
+
+**Value of a state.** The idea behind learning agents and game AI.
+
+$$V^{\pi}(s) = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} \gamma^{t}\, r_{t+1} \;\middle|\; s_0 = s\right]$$
+
+## Tech stack
+
+<table>
+  <tr>
+    <td width="190"><b>Software engineering</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/-Go-0B1510?style=flat-square&logo=go&logoColor=3DFFA0" alt="Go">
+      <img src="https://img.shields.io/badge/-C%23-0B1510?style=flat-square&logo=dotnet&logoColor=3DFFA0" alt="C#">
+      <img src="https://img.shields.io/badge/-Node.js-0B1510?style=flat-square&logo=nodedotjs&logoColor=3DFFA0" alt="Node.js">
+      <img src="https://img.shields.io/badge/-FastAPI-0B1510?style=flat-square&logo=fastapi&logoColor=3DFFA0" alt="FastAPI">
+      <img src="https://img.shields.io/badge/-PostgreSQL-0B1510?style=flat-square&logo=postgresql&logoColor=3DFFA0" alt="PostgreSQL">
+      <img src="https://img.shields.io/badge/-Firebase-0B1510?style=flat-square&logo=firebase&logoColor=3DFFA0" alt="Firebase">
+      <img src="https://img.shields.io/badge/-AWS-0B1510?style=flat-square" alt="AWS">
+      <img src="https://img.shields.io/badge/-Google%20Cloud-0B1510?style=flat-square&logo=googlecloud&logoColor=3DFFA0" alt="Google Cloud">
+      <img src="https://img.shields.io/badge/-React%20Native-0B1510?style=flat-square&logo=react&logoColor=3DFFA0" alt="React Native">
+      <img src="https://img.shields.io/badge/-Git-0B1510?style=flat-square&logo=git&logoColor=3DFFA0" alt="Git">
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI engineering</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/-Python-0B1510?style=flat-square&logo=python&logoColor=3DFFA0" alt="Python">
+      <img src="https://img.shields.io/badge/-PyTorch-0B1510?style=flat-square&logo=pytorch&logoColor=3DFFA0" alt="PyTorch">
+      <img src="https://img.shields.io/badge/-TensorFlow-0B1510?style=flat-square&logo=tensorflow&logoColor=3DFFA0" alt="TensorFlow">
+      <img src="https://img.shields.io/badge/-Pandas-0B1510?style=flat-square&logo=pandas&logoColor=3DFFA0" alt="Pandas">
+      <img src="https://img.shields.io/badge/-OpenAI%20API-0B1510?style=flat-square" alt="OpenAI API">
+    </td>
+  </tr>
+  <tr>
+    <td><b>Game development</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/-Unity-0B1510?style=flat-square&logo=unity&logoColor=3DFFA0" alt="Unity">
+      <img src="https://img.shields.io/badge/-Godot-0B1510?style=flat-square&logo=godotengine&logoColor=3DFFA0" alt="Godot">
+      <img src="https://img.shields.io/badge/-C%23-0B1510?style=flat-square&logo=dotnet&logoColor=3DFFA0" alt="C#">
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI and math research</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/-NumPy-0B1510?style=flat-square&logo=numpy&logoColor=3DFFA0" alt="NumPy">
+      <img src="https://img.shields.io/badge/-SciPy-0B1510?style=flat-square&logo=scipy&logoColor=3DFFA0" alt="SciPy">
+      <img src="https://img.shields.io/badge/-Jupyter-0B1510?style=flat-square&logo=jupyter&logoColor=3DFFA0" alt="Jupyter">
+      <img src="https://img.shields.io/badge/-LaTeX-0B1510?style=flat-square&logo=latex&logoColor=3DFFA0" alt="LaTeX">
+      <img src="https://img.shields.io/badge/-PyTorch-0B1510?style=flat-square&logo=pytorch&logoColor=3DFFA0" alt="PyTorch">
+    </td>
+  </tr>
+</table>
+
+## Activity
+
+<p align="center">
+  <img src="./assets/activity.svg" alt="Contribution activity over the last 12 months: total, current streak, longest streak and busiest day" width="100%">
+</p>
+
+<p align="center">
+  <img src="./assets/stats.svg" alt="Languages used in public repositories, with public repo, star and follower counts" width="100%">
+</p>
+
+## Support my work
+
+<p align="center">
+  <img src="./imgs/qr.png" width="240" alt="QR code to support Nguyen Thanh An">
+</p>
+
+<p align="center">
+  If my projects helped you, or you want to back what I build next, a coffee goes a long way.<br>
+  Scan the QR code above to buy me one.
+</p>
+
+<p align="center">
+  <img src="./assets/divider.svg" width="100%" alt="">
+</p>
+
+<p align="center">
+  <i>"I always try my best!"</i><br>
+  <sub>Still training. Check back for the next epoch.</sub>
   <br><br>
-  <h3>"I always try my best!" 🚀</h3>
-  <br>
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=thanhanDemon2003&label=PROFILE%20VIEWS&color=00D9FF&style=for-the-badge" alt="Visitor Count" />
-</div>
+  <img src="https://komarev.com/ghpvc/?username=thanhanDemon2003&label=PROFILE%20VIEWS&color=3DFFA0&labelColor=0B1510&style=flat-square" alt="Profile views">
+</p>

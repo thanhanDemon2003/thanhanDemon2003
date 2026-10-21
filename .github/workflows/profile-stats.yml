@@ -1,0 +1,38 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"        # every 3 hours
+  workflow_dispatch:             # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths: ["scripts/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build activity.svg and stats.svg
+        env:
+          # Optional: add a repo secret named PROFILE_TOKEN (a personal access token with read:user)
+          # to count private contributions too. Without it, the built-in token is used.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/build_profile_svgs.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg assets/stats.svg
+          git diff --cached --quiet || git commit -m "chore: refresh profile stats"
+          git push
