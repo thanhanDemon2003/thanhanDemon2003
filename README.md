@@ -47,7 +47,7 @@ I like to begin with a sketch, an equation, or a question I cannot quite leave a
 
 That loop connects the work: software gives an experiment structure, math helps explain it, AI adds learning, and games give ideas a world to act in.
 
-<details>
+<details open>
 <summary><b>Inside the thinker loop</b></summary>
 
 ```python
@@ -157,7 +157,7 @@ For MINDOO, this gives the next chapter a direction: **listen more closely, ask 
   <img src="./assets/agent-trace.svg" alt="An illustrative agent trace typed out line by line: goal, think, tool, observation, correction, lesson saved to memory" width="100%">
 </p>
 
-<details>
+<details open>
 <summary><b>Notes from my math notebook</b></summary>
 
 Three equations I keep coming back to, re-deriving and re-reading. Each one shows up in more than one of my four disciplines.
