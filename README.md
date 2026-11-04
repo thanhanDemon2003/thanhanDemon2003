@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Nguyen Thanh An: software engineer, AI engineer, game developer, AI and math researcher. A horned robot agent with arms and legs rests a hand on its chin beside a reasoning trace that types itself out." width="100%">
+  <img src="./assets/banner.svg" alt="THINKER × MINDOO. Ideas on paper. Systems in code. Worlds in motion. Letters appear in sequence while MINDOO blinks, tilts its head and cycles through field notes: read, think, build, reflect." width="100%">
 </p>
 
 <p align="center">
@@ -18,28 +18,43 @@
   <img src="./assets/divider.svg" width="100%" alt="">
 </p>
 
-## Meet thinker
+## The person behind the lab
 
-Friends call me *thinker*. I think on paper before I type, then let the work loop: observe, reason, plan, act, reflect. Inside my head it looks like one orchestrator and a small team of specialist agents.
+I'm **Nguyen Thanh An**. Friends call me **thinker**. I turn ideas on paper into systems, learning agents, and playable worlds. My companion is **MINDOO**: curious, a little absent-minded, and always ready for another experiment.
+
+My long-term research direction is **AI that better understands human intent, emotion and behavior** — bringing my interest in intelligence closer to the people it serves.
+
+[Explore my repositories →](https://github.com/thanhanDemon2003?tab=repositories) · [Visit my website →](https://fullstackthinker.com/)
+
+## Inside the lab
 
 <p align="center">
-  <img src="./assets/agents.svg" alt="Thinker, the orchestrator, takes a request, sends tasks to a software agent, an AI agent, a game agent and a math agent, then merges their results and writes notes" width="100%">
-</p>
-
-## Four ways I work
-
-<p align="center">
-  <img src="./assets/roles.svg" alt="Software engineering, AI engineering, game development, AI and math research" width="100%">
+  <img src="./assets/agents.svg" alt="THINKER and MINDOO connect software reliability, AI learning, game worlds and mathematical understanding through animated paths." width="100%">
 </p>
 
 One engineer, four disciplines. Each one sharpens the others: systems thinking for models, optimization for games, and math for all of it.
 
-## About me
+### From a question to an experiment
+
+I like to begin with a sketch, an equation, or a question I cannot quite leave alone. Then I build something small enough to inspect and real enough to challenge the idea.
+
+| Step | The question I bring to it | What I aim to leave with |
+| --- | --- | --- |
+| **01 / Understand** | What is the actual problem? | A clear question and explicit assumptions. |
+| **02 / Build** | What is the smallest useful experiment? | A prototype I can run and inspect. |
+| **03 / Test** | Where does the idea stop working? | Observations, failure cases and better questions. |
+| **04 / Reflect** | What should change next time? | A note worth keeping and a concrete next step. |
+
+That loop connects the work: software gives an experiment structure, math helps explain it, AI adds learning, and games give ideas a world to act in.
+
+<details>
+<summary><b>Inside the thinker loop</b></summary>
 
 ```python
 class Thinker:
     name = "Nguyen Thanh An"
     alias = "thinker"
+    companion = "MINDOO"
     roles = [
         "software engineer",
         "AI engineer",
@@ -60,10 +75,14 @@ class Thinker:
 
     def delegate(self, goal: str):
         # my stand-in agent: plans, picks a tool, reads the result, remembers it
-        return DemonAgent(tools=["api", "model", "game", "math"]).run(goal)
+        return MindooAgent(tools=["api", "model", "game", "math"]).run(goal)
 ```
 
-## Always learning
+*An illustrative sketch of my workflow.*
+
+</details>
+
+## Lab notebook / always learning
 
 <p align="center">
   <img src="./assets/learning.svg" alt="How I learn: read, derive, build, break, write, repeat. A loss curve that falls but never reaches zero." width="100%">
@@ -99,19 +118,47 @@ What I am digging into right now:
   <img src="./assets/divider.svg" width="100%" alt="">
 </p>
 
-## Agents I like to build
+## On the horizon / understanding the human behind the words
+
+**Future research direction · Intent, emotion & human behavior**
+
+I want to explore the intersection of artificial intelligence and psychology: how an agent might form and revise hypotheses about what someone means, what they are trying to achieve, and how they describe their feelings in context.
+
+The question that draws me in is simple:
+
+> Can an agent learn when to infer, when to ask, and when to admit it does not know?
+
+### Milestones I want to work toward
+
+| Milestone | Research focus | What I hope to build or learn |
+| --- | --- | --- |
+| **01 / Foundations** | Cognitive psychology, emotion and human decision-making. | A research notebook connecting psychological questions to testable AI experiments. |
+| **02 / Intent in context** | Goals, ambiguity and changing intentions across a conversation. | Small experiments that compare plausible interpretations and ask useful clarifying questions. |
+| **03 / Emotion in context** | Emotional cues in language and how people explain their own feelings. | Models evaluated against participant feedback, with uncertainty made explicit. |
+| **04 / MINDOO experiments** | Bringing intent and emotion research into an agent's responses. | A prototype that checks its assumptions, accepts correction and adapts its response. |
+
+These are future milestones, with no fixed timeline yet. I want to treat predictions about people as hypotheses they can correct, and build experiments around consent, context and careful evaluation.
+
+For MINDOO, this gives the next chapter a direction: **listen more closely, ask better questions, and learn from being corrected.**
+
+## Meet MINDOO
 
 <p align="center">
-  <img src="./assets/agent.svg" alt="An AI agent loop: a horned robot agent plans, calls one of four tools (API, model, game, math), reads the result and stores it in memory" width="100%">
+  <img src="./assets/agent.svg" alt="MINDOO, a round, hornless robot with a slightly blank expression, blinks and tilts its head. Observe, reason, plan, act, reflect." width="100%">
 </p>
 
-The little horned bot is my stand-in for an agent. It plans, picks a tool, reads what comes back and remembers it. Its four tools happen to be my four disciplines.
+**MINDOO** is the face of my agent experiments. A thoughtful companion with a slightly blank stare, it represents the loop I explore: observe, reason, plan, act and reflect. The trace below illustrates that workflow.
+
+> The experiment failed. The notebook improved.
+
+**The person sets the direction. MINDOO gives the loop a face.** Its little pauses and blank stares are a reminder to stay curious, check the result, and make room for another attempt.
 
 <p align="center">
   <img src="./assets/agent-trace.svg" alt="An illustrative agent trace typed out line by line: goal, think, tool, observation, correction, lesson saved to memory" width="100%">
 </p>
 
-## Notes from my math notebook
+<details>
+<summary><b>Notes from my math notebook</b></summary>
 
 Three equations I keep coming back to, re-deriving and re-reading. Each one shows up in more than one of my four disciplines.
 
@@ -127,7 +174,9 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\!\left(\frac{QK^{\top}}{\sqrt{d_k
 
 $$V^{\pi}(s) = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} \gamma^{t}\, r_{t+1} \;\middle|\; s_0 = s\right]$$
 
-## Tech stack
+</details>
+
+## Tools in the lab
 
 <table>
   <tr>
@@ -201,7 +250,7 @@ $$V^{\pi}(s) = \mathbb{E}_{\pi}\!\left[\sum_{t=0}^{\infty} \gamma^{t}\, r_{t+1} 
 </p>
 
 <p align="center">
-  <i>"I always try my best!"</i><br>
+  <i>"Think on paper. Build with MINDOO. Learn from what breaks."</i><br>
   <sub>Still training. Check back for the next epoch.</sub>
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=thanhanDemon2003&label=PROFILE%20VIEWS&color=3DFFA0&labelColor=0B1510&style=flat-square" alt="Profile views">
