@@ -10,8 +10,8 @@
   <a href="https://fullstackthinker.com/"><img src="./assets/link-website.svg" height="38" alt="Website"></a>
   <a href="https://www.linkedin.com/in/fullstackthinker26/"><img src="./assets/link-linkedin.svg" height="38" alt="LinkedIn"></a>
   <a href="https://www.upwork.com/freelancers/~01662ddccd4c2b19b1?mp_source=share"><img src="./assets/link-upwork.svg" height="38" alt="Upwork"></a>
-  <a href="https://www.facebook.com/thanhan.demon26/"><img src="./assets/link-facebook.svg" height="38" alt="Facebook"></a>
-  <a href="mailto:contact@thanhandemon.com"><img src="./assets/link-email.svg" height="38" alt="Email"></a>
+  <a href="https://www.facebook.com/thanhanthinker/"><img src="./assets/link-facebook.svg" height="38" alt="Facebook"></a>
+  <a href="mailto:devnguyenthanhan26@gmail.com"><img src="./assets/link-email.svg" height="38" alt="Email"></a>
 </p>
 
 <p align="center">
